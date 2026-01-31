@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://yearnandlearn.com/og-image.jpg", // Replace with actual image URL later
+        url: "https://raw.githubusercontent.com/Yahia89/yearn-learn/43499de856f14ff8130e18a2ee5c1893f7394ada/Screenshot%202026-01-30%20at%2022-41-22%20Yearn%20%26%20Learn%20Premium%20Virtual%20Tutoring.png",
         width: 1200,
         height: 630,
         alt: "Yearn & Learn Tutoring",
@@ -42,6 +42,26 @@ export const metadata: Metadata = {
     description:
       "Expert virtual tutoring in English and Math. Professional instructor with 3+ years of experience.",
   },
+  icons: {
+    icon: [
+      { url: "/favicon-96x96.png", sizes: "96x96", type: "image/png" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico" },
+    ],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
+  },
+  manifest: "/site.webmanifest",
+  keywords: [
+    "tutoring",
+    "virtual tutoring",
+    "english tutoring",
+    "math tutoring",
+    "K-6",
+    "education",
+    "online learning",
+    "Layann Hamida",
+  ],
+  authors: [{ name: "Layann Hamida" }],
 };
 
 export default function RootLayout({
