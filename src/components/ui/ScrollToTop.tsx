@@ -32,8 +32,10 @@ export default function ScrollToTop() {
     <button
       onClick={scrollToTop}
       className={clsx(
-        "fixed bottom-8 right-8 z-40 p-3 rounded-full bg-primary text-white shadow-lg shadow-primary/30 transition-all duration-300 hover:scale-110 hover:bg-opacity-90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2",
-        isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10 pointer-events-none"
+        "fixed bottom-8 right-8 z-40 p-3 rounded-full bg-primary text-white  transition-all duration-300 hover:scale-110 hover:bg-opacity-90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2",
+        isVisible
+          ? "opacity-100 translate-y-0"
+          : "opacity-0 translate-y-10 pointer-events-none",
       )}
       aria-label="Scroll to top"
     >
